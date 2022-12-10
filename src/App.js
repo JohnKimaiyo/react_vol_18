@@ -6,6 +6,7 @@ import Hello from "./component/Hello";
 import Title from "./component/Title";
 import Myname from "./component/Myname";
 import Mycount from "./component/Mycount";
+import Users from "./component/Users";
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
       <Title name="Front Developer Kimaiyo" />
       <Myname/>
       <Mycount/>
+      <Users/>
     </div>
   );
 }
