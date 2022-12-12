@@ -7,6 +7,7 @@ import Title from "./component/Title";
 import Myname from "./component/Myname";
 import Mycount from "./component/Mycount";
 import Users from "./component/Users";
+import Event from "./component/Event";
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,7 @@ function App() {
       <Myname/>
       <Mycount/>
       <Users/>
+      <Event/>
     </div>
   );
 }
