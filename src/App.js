@@ -9,6 +9,7 @@ import Mycount from "./component/Mycount";
 import Users from "./component/Users";
 import Event from "./component/Event";
 import Range from "./component/Range";
+import InputFocus from "./component/InputFocus";
 function App() {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App() {
       <Users/>
       <Event/>
       <Range/>
+      <InputFocus/>
     </div>
   );
 }
